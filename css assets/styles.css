@@ -24,6 +24,7 @@ nav {
     display: flex;
     gap: 12px;
     align-items: center;
+    flex-wrap: wrap; /* allow wrapping on small screens */
 }
 
 .nav-btn, .quick-btn {
