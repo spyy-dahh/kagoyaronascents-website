@@ -630,6 +630,16 @@ footer {
     margin: 10px 0;
 }
 
+/* General responsive rule */
+* {
+  box-sizing: border-box; /* prevents weird overflows */
+}
+
+body {
+  overflow-x: hidden; /* stops horizontal scrolling issues */
+}
+
+
 
 /* Responsive Design */
 @media (max-width: 1024px) {
