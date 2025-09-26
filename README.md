@@ -5,7 +5,7 @@ This project showcases our fragrances, provides information about the brand, and
 
 ## 🌐 Live Website
 The site is deployed on GitHub Pages:  
-[https://spyy-dahh.github.io/kagoyaronascents/](https://spyy-dahh.github.io/kagoyaronascents/)
+[https://spyy-dahh.github.io/kagoyaronascents/](https://spyy-dahh.github.io/kagoyaronascents-website/)
 
 
 ## 📂 File and folder structure
@@ -64,11 +64,9 @@ This project is hosted with GitHub Pages.
 -Assistance & Guidance
 	Project documentation and troubleshooting supported by ChatGPT (OpenAI)
 
--Pushing code to github
-  https://www.youtube.com/watch?v=JB7YD7OKm5g
+-Pushing code to github - https://www.youtube.com/watch?v=JB7YD7OKm5g
 
--Deploying to GitHub Pages
-  https://www.youtube.com/watch?v=BT4WzyT2g8k
+-Deploying to GitHub Pages - https://www.youtube.com/watch?v=BT4WzyT2g8k
 
 
 
