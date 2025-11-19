@@ -7,6 +7,8 @@
     <link rel="icon"  type="image/jpg" href="./images/icons/kagoyarona iconn.png">
     <link rel="stylesheet" href="./css assets/styles.css">
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
 </head>
 <body>
 
@@ -17,12 +19,22 @@
                 <h3>Transform your space, transform your mood.</h3>
                 
                 <!-- place these links next to the logo but like put some spaceeee in btwn them -->
-                <nav >
-                    <a href="./index.html" class="nav-btn">Home</a>
-                    <a href="./Products.html" class="nav-btn">Our Products</a>
-                    <a href="./About.html" class="nav-btn">About us</a>
-                    <a href="./Contact.html" class="nav-btn">Contact us</a>
-                    <a href="./Enquiries.html" class="nav-btn">Enquiries</a>
+                <nav>
+                    <!-- Hamburger -->
+                    <div class="hamburger">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+
+                    <!-- Nav Links -->
+                    <ul class="nav-links">
+                        <li><a href="./index.html" class="nav-btn">Home</a></li>
+                        <li><a href="./Products.html" class="nav-btn">Products</a></li>
+                        <li><a href="./About.html" class="nav-btn">About</a></li>
+                        <li><a href="./Contact.html" class="nav-btn">Contact</a></li>
+                        <li><a href="./Enquiries.html" class="nav-btn">Enquiries</a><li>
+                    </ul>
                 </nav>
             </div>
             <hr>
@@ -36,73 +48,89 @@
         <p>Kagoyarona Scents offers a wide range of different products from reed diffusers to scented candles. See our catalogue below.</p>
     </section>
 
-<div class="product-grid">
+    <div class="product-grid">
 
-    <!-- Product Card 1 -->
-    <div class="product-card">
-        <img src="./images/insence/front insence.jpg" alt="Amber Noir">
-        <h3>Amber Noir</h3>
-        <p class="product-desc">Warm, sensual fragrance with notes of amber and vanilla</p>
-        <p class="product-price">R260.00</p>
+        <!-- Product Card 1 -->
+        <div class="product-card fade-in">
+            <a href="./images/insence/front insence.jpg" data-lightbox="products" data-title="Amber Noir - Warm, sensual fragrance with notes of amber and vanilla">
+                <img src="./images/insence/front insence.jpg" alt="Amber Noir">
+            </a>
+            <h3>Amber Noir</h3>
+            <p class="product-desc">Warm, sensual fragrance with notes of amber and vanilla</p>
+            <p class="product-price">R260.00</p>
+        </div>
+
+        <!-- Product Card 2 -->
+        <div class="product-card fade-in">
+            <a href="./images/insence/top incense.jpg" data-lightbox="products" data-title="Sandalwood Essence - Earthy and woody with sandalwood and patchouli base">
+                <img src="./images/insence/top incense.jpg" alt="Sandalwood Essence">
+            </a>
+            <h3>Sandalwood Essence</h3>
+            <p class="product-desc">Earthy and woody with sandalwood and patchouli base</p>
+            <p class="product-price">R260.00</p>
+        </div>
+
+        <!-- Product Card 3 -->
+        <div class="product-card fade-in">
+            <a href="./images/insence/car scents.jpg" data-lightbox="products" data-title="Sparkling Magnolia - Rich, sweet, and floral scent reminiscent of natural magnolia">
+                <img src="./images/insence/car scents.jpg" alt="Sparkling Magnolia">
+            </a>
+            <h3>Sparkling Magnolia</h3>
+            <p class="product-desc">Rich, sweet, and floral scent reminiscent of natural magnolia</p>
+            <p class="product-price">R60.00</p>
+        </div>
+
+        <!-- Product Card 4 -->
+        <div class="product-card fade-in">
+            <a href="./images/candles/BnW candles.jpg" data-lightbox="products" data-title="Designer Candle - Citrus fusion of bergamot, lemon, lime, and sweet mandarin">
+                <img src="./images/candles/BnW candles.jpg" alt="Designer Candle">
+            </a>
+            <h3>Designer Candle</h3>
+            <p class="product-desc">Citrus fusion of bergamot, lemon, lime, and sweet mandarin, harmonized by a floral bouquet of cyclamen</p>
+            <p class="product-price">R100.00</p>
+        </div>
+
+        <!-- Product Card 5 -->
+        <div class="product-card fade-in">
+            <a href="./images/candles/grey candles.jpg" data-lightbox="products" data-title="Ocean Mist - Fresh aquatic scent with hints of sea salt and bergamot">
+                <img src="./images/candles/grey candles.jpg" alt="Ocean Mist">
+            </a>
+            <h3>Ocean Mist</h3>
+            <p class="product-desc">Fresh aquatic scent with hints of sea salt and bergamot</p>
+            <p class="product-price">R160.00</p>
+        </div>
+
+        <!-- Product Card 6 -->
+        <div class="product-card fade-in">
+            <a href="./images/candles/knot-clay-candles.jpeg" data-lightbox="products" data-title="Knotted Clay - A powdery, fruity fragrance with delicate citrus notes, hints of fruity melon and peach, enhanced with jasmine and white">
+                <img src="./images/candles/knot-clay-candles.jpeg" alt="Knotted Clay">
+            </a>
+            <h3>Knotted Clay</h3>
+            <p class="product-desc">A powdery, fruity fragrance with delicate citrus notes, hints of fruity melon and peach, enhanced with jasmine and white</p>
+            <p class="product-price">R100.00</p>
+        </div>
+
+        <!-- Product Card 7 -->
+        <div class="product-card fade-in">
+            <a href="./images/candles/mini bubble candles.jpeg" data-lightbox="products" data-title="Mini Bubbles - A fruity, festive blend of bubbly champagne, sweet nectarines, and citrus fruits on a sugar base of vanilla and musk. Reminiscent of a beautifully delicious cocktail">
+                <img src="./images/candles/mini bubble candles.jpeg" alt="Mini Bubbles">
+            </a>
+            <h3>Mini Bubbles</h3>
+            <p class="product-desc">A fruity, festive blend of bubbly champagne, sweet nectarines, and citrus fruits on a sugar base of vanilla and musk. Reminiscent of a beautifully delicious cocktail</p>
+            <p class="product-price">R60.00</p>
+        </div>
+
+        <!-- Product Card 8 -->
+        <div class="product-card fade-in">
+            <a href="./images/candles/peony candles.jpeg" data-lightbox="products" data-title="Peony Scents - An irresistible scent of pomegranate, sparkling mandarin, dewberry, and blackberry">
+                <img src="./images/candles/peony candles.jpeg" alt="Peony Scents">
+            </a>
+            <h3>Peony Scents</h3>
+            <p class="product-desc">An irresistible scent of pomegranate, sparkling mandarin, dewberry, and blackberry</p>
+            <p class="product-price">R100.00</p>
+        </div>
+
     </div>
-
-    <!-- Product Card 2 -->
-    <div class="product-card">
-        <img src="./images/insence/top incense.jpg" alt="Sandalwood Essence">
-        <h3>Sandalwood Essence</h3>
-        <p class="product-desc">Earthy and woody with sandalwood and patchouli base</p>
-        <p class="product-price">R260.00</p>
-    </div>
-
-    <!-- Product Card 3 -->
-    <div class="product-card">
-        <img src="./images/insence/car scents.jpg" alt="Sparkling Magnolia">
-        <h3>Sparkling Magnolia</h3>
-        <p class="product-desc">Rich, sweet, and floral scent reminiscent of natural magnolia</p>
-        <p class="product-price">R60.00</p>
-    </div>
-
-    <!-- Product Card 4 -->
-    <div class="product-card">
-        <img src="./images/candles/BnW candles.jpg" alt="Designer Candle">
-        <h3>Designer Candle</h3>
-        <p class="product-desc">Citrus fusion of bergamot, lemon, lime, and sweet mandarin, harmonized by a floral bouquet of cyclamen</p>
-        <p class="product-price">R100.00</p>
-    </div>
-
-    <!-- Product Card 5 -->
-    <div class="product-card">
-        <img src="./images/candles/grey candles.jpg" alt="Ocean Mist">
-        <h3>Ocean Mist</h3>
-        <p class="product-desc">Fresh aquatic scent with hints of sea salt and bergamot</p>
-        <p class="product-price">R160.00</p>
-    </div>
-
-    <!-- Product Card 6 -->
-    <div class="product-card">
-        <img src="./images/candles/knot-clay-candles.jpeg" alt="Knotted Clay">
-        <h3>Knotted Clay</h3>
-        <p class="product-desc">A powdery, fruity fragrance with delicate citrus notes, hints of fruity melon and peach, enhanced with jasmine and white</p>
-        <p class="product-price">R100.00</p>
-    </div>
-
-    <!-- Product Card 7 -->
-    <div class="product-card">
-        <img src="./images/candles/mini bubble candles.jpeg" alt="Mini Bubbles">
-        <h3>Mini Bubbles</h3>
-        <p class="product-desc">A fruity, festive blend of bubbly champagne, sweet nectarines, and citrus fruits on a sugar base of vanilla and musk. Reminiscent of a beautifully delicious cocktail</p>
-        <p class="product-price">R60.00</p>
-    </div>
-
-    <!-- Product Card 8 -->
-    <div class="product-card">
-        <img src="./images/candles/peony candles.jpeg" alt="Peony Scents">
-        <h3>Peony Scents</h3>
-        <p class="product-desc">An irresistible scent of pomegranate, sparkling mandarin, dewberry, and blackberry</p>
-        <p class="product-price">R100.00</p>
-    </div>
-
-</div>
 
 
     <hr>
@@ -143,5 +171,6 @@
             </div>
         </div>
     </footer>
+    <script src="javascript assets/script.js"></script>
 </body>
 </html>
